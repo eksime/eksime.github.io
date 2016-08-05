@@ -1,26 +1,26 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+title: John Smith
+description: My Personal Blog
+author: John Smith
+logo: static/img/avatar.png
+github: https://github.com/ashutosh2k12
+about: Freelance developer
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+baseurl: ""
+url: "http://aboutashu.com/hcz-jekyll-blog"
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
 
-paginate:         5
 
-# Custom vars
-version:          2.1.0
+enableTags: true
+tagarray: []
 
-github:
-  repo:           https://github.com/poole/hyde
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
