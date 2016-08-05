@@ -1,18 +1,18 @@
-title: John Smith
+title: Elliot Sime
 description: My Personal Blog
-author: John Smith
+author: Elliot Sime
 logo: static/img/avatar.png
-github: https://github.com/ashutosh2k12
-about: Freelance developer
+github: https://github.com/eksime
+about: 
 
 baseurl: ""
-url: "http://aboutashu.com/hcz-jekyll-blog"
+url: "https://eksime.github.io"
 
 disqus_shortname: aboutashu
 google_analytics: UA-72862926-1
 
 share:
-  twitter_username: \#
+  twitter_username: \#ElliotSime
   fb_appid: 000000000000
 
 
