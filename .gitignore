@@ -15,7 +15,7 @@ _site
 *.vi
 *~
 *.sln
-Web.config
+*.config
 
 # OS or Editor folders
 .DS_Store
