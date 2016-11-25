@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Elliot Sime
+title:            eksime
 tagline:          'A Jekyll theme'
 description:      'My personal site for info/projects'
 url:              https://eksi.me
