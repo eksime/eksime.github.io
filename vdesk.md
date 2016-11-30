@@ -5,7 +5,7 @@ title: vDesk
 
 vDesk is a small utility to extend the functionality provided by Windows 10's Virtual Desktops. 
 
-It allows you to open virtual desktops, and launching programs on other desktops via shortcuts.
+It allows you to open virtual desktops, and launch programs on other desktops via shortcuts.
 
 #### Usage:
 
