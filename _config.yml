@@ -22,4 +22,5 @@ paginate:         5
 version:          2.1.0
 
 github:
+  url:           https://github.com/eksime
   repo:           https://github.com/eksime/eksime.github.io
