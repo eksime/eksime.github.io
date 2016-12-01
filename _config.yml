@@ -4,6 +4,8 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
+excerpt_separator: <!--more-->
+
 # Setup
 title:            eksime
 tagline:          'A Jekyll theme'
