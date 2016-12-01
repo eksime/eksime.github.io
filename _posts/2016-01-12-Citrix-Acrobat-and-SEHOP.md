@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Citrix, Acrobat DC and SEHOP
+title: Citrix, Acrobat and SEHOP
 ---
 
 One of our users requires the use of Acrobat pro for editing PDFs. Normally they'd run Acrobat on their own machine, but we've recently switched to running Citrix XenDesktop on Windows Server 2012 R2. Most software we used worked fine, however Acrobat DC would always crash on startup with the following message:
