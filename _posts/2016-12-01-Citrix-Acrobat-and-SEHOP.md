@@ -19,4 +19,4 @@ After contacting Adobe, who *insisted* installing Adobe Application Manager 10 w
 
 We were looking at issues within Adobe Reader/Acrobat that could cause this, but until we had the 'aha' moment of realising the crash was occuring in kernelbase.dll we hadn't thought of checking if Windows was interfering. After much prodding and poking with [Process Monitor](https://technet.microsoft.com/en-us/sysinternals/processmonitor.aspx) we determined the process was being terminated by SEHOP protection in EMET, which is enabled by default on Windows Server 2012 R2 ([More info here](https://krebsonsecurity.com/2013/06/windows-security-101-emet-4-0/)).
 
-{% gist bb1350679b70c513ba075dceef8d9e02 Disable%2520SEHOP%2520PDApp.reg %}
+{% gist bb1350679b70c513ba075dceef8d9e02 %}
