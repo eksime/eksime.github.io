@@ -20,7 +20,7 @@ class Abbott {
         let text = this.nlp.text(this.sentence).contractions.expand().root().split(' ');
         let backgroundRNG = new Math.seedrandom(text);
 
-        let words = Array.from(new Set([].concat.apply([],text.map(function(e) {return Word2VecUtils.findSimilarWords(1, e).map(function(e) {return e[0]})}))));
+        let words = Array.from(new Set([].concat.apply([],text.map(function(e) {return Word2VecUtils.findSimilarWords(2, e).map(function(e) {return e[0]})}))));
         document.getElementById("words").innerHTML = '<ul><li>' + words.join("</li><li>") + '</li></ul>';
 
 
@@ -78,4 +78,24 @@ class Abbott {
         }
 
     }
+}
+
+
+function shuffle(a) {
+    for (let i = a.length; i; i--) {
+        let j = Math.floor(Math.random() * i);
+        [a[i - 1], a[j]] = [a[j], a[i - 1]];
+    }
+}
+
+let seed = 6;
+
+onload = function () {
+    let input = document.getElementById('text');
+    let c = document.getElementById('test');
+    let hannah = new Abbott(c);
+    input.oninput = function(e) {
+        hannah.generate(input.value);
+    };
+    input.onpropertychange = input.oninput;
 }
