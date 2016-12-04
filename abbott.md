@@ -8,7 +8,10 @@ title: abbott
 <script src='/public/js/abbott.js'></script>
 <script defer> 
     let input = document.getElementById('text');
-    let canvas = document.getElementById('abbott');
+    let div = document.getElementById('abbott');
+    var canvas = document.createElement("canvas");
+    div.appendChild(canvas);
+
     let abbott = new Abbott(canvas);
     input.oninput = function(e) {
         abbott.generate(input.value);
@@ -19,4 +22,4 @@ title: abbott
 # content
 
 <input id='text' type="text">
-<canvas id='abbott' width=600 height=600></canvas>
+<div id='abbott'></div>
