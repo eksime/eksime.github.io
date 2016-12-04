@@ -1,6 +1,6 @@
 ---
 layout: page
-title: abbott
+title: abbott.js
 ---
         
 <script src="//cdnjs.cloudflare.com/ajax/libs/nlp_compromise/6.5.3/nlp_compromise.min.js"></script>
@@ -8,7 +8,8 @@ title: abbott
 <script src='/public/js/wordvecs1000.js'></script>
 <script src='/public/js/word2vecutils.js'></script>
 <script src='/public/js/abbott.js'></script>
-# content
+
+Type in the box below to generate a sentence:
 
 <input id='text' type='text'>
 <div id='abbott'></div>
