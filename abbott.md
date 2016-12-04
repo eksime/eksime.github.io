@@ -12,6 +12,7 @@ title: abbott
 
 <input id='text' type='text'>
 <div id='abbott'></div>
+<div id='words'></div>
 
 <script defer> 
     let input = document.getElementById('text');
