@@ -21,5 +21,5 @@ title: abbott
 
 # content
 
-<input id='text' type="text">
+<input id='text' type="text"> </input>
 <div id='abbott'></div>
