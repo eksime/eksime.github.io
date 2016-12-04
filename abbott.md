@@ -19,4 +19,4 @@ title: abbott
 # content
 
 <input id='text' type="text">
-<canvas id="abbott" width=600 height=600></canvas>
+<canvas id='abbott' width=600 height=600></canvas>
