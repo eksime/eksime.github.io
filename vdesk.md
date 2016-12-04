@@ -1,6 +1,6 @@
 ---
 layout: page
-title: vDesk test
+title: vDesk
 ---
 
 vDesk is a small utility to extend the functionality provided by Windows 10's Virtual Desktops. 
