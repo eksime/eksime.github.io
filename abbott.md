@@ -1,11 +1,11 @@
-﻿---
+---
 layout: page
-title: Abbott
+title: abbott
 ---
 
+<script src='public/js/wordvecs1000.js'></script>
+<script src='public/js/word2vecutils.js'></script>
+<script src='public/js/abbott.js'></script>
 
-### Download:
 
-Download the [Latest Release](https://github.com/eksime/VDesk/releases/latest) on Github!
-
-Have a suggestion / contribution / bug report? See the [Github project page](https://github.com/eksime/VDesk).
+# content
