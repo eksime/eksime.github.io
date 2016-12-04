@@ -18,6 +18,9 @@ title: abbott
     let input = document.getElementById('text');
     let div = document.getElementById('abbott');
     let canvas = document.createElement('canvas');
+    canvas.width = 600;
+    canvas.height = 600;
+
     div.appendChild(canvas);
 
     let abbott = new Abbott(canvas);
