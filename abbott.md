@@ -12,14 +12,16 @@ title: abbott
 <div id='abbott'></div>
 
 <script defer> 
-    let input = document.getElementById('text');
-    let div = document.getElementById('abbott');
-    let canvas = document.createElement('canvas');
-    div.appendChild(canvas);
+    onload = function () {
+        let input = document.getElementById('text');
+        let div = document.getElementById('abbott');
+        let canvas = document.createElement('canvas');
+        div.appendChild(canvas);
 
-    let abbott = new Abbott(canvas);
-    input.oninput = function(e) {
-        abbott.generate(input.value);
-    };
-    input.onpropertychange = input.oninput;
+        let abbott = new Abbott(canvas);
+        input.oninput = function(e) {
+            abbott.generate(input.value);
+        };
+        input.onpropertychange = input.oninput;
+    }
 </script>
